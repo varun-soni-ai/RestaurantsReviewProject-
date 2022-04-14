@@ -1,0 +1,3 @@
+import pandas as pa
+import os
+ds = pa.read_csv('laptop_price.csv')
