@@ -55,7 +55,7 @@ import nltk    # Natural Language Tool Kit.
 # In[24]:
 
 
-ds = pd.read_csv("\Restaurant_Reviews.tsv", encoding ='latin-1‪',delimiter = '\t', quoting = 3)
+ds = pd.read_csv("Restaurant_Reviews.tsv", encoding ='latin-1‪',delimiter = '\t', quoting = 3)
 ds.head(9)
 # Import dataset with setting delimiter as ‘\t’ as columns are separated as tab space.
 #Reviews and their category(0 or 1) are not separated by any other symbol but with tab space as most of the other 
